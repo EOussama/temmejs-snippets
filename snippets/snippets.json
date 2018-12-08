@@ -1,10 +1,36 @@
 {
-    "Basic Hierarchy" : {
+    "Basic hierarchy" : {
         "prefix": "temme",
         "scope": "javascript,typescript,html",
         "description": "Generates a basic temme object.",
         "body": [
             "{",
+            "   ref: \"$1\",",
+            "   from: {",
+            "       ref: \"$2\"",
+            "       mode: \"${3|append,override|}\"",
+            "       allowChildren: ${4:false}",
+            "   },",
+            "   name: \"${5:div}\",",
+            "   id: \"$6\",",
+            "   text: \"$7\",",
+            "   html: \"$8\",",
+            "   classes: ['$9'],",
+            "   attributes: {$10},",
+            "   dataset: {$11},",
+            "   children: [$12]",
+            "}"
+        ]
+    },
+    "Referencing object": {
+        "prefix": "temme:from",
+        "scope": "javascript,typescript,html",
+        "description": "Generates a referencing object.",
+        "body": [
+            "from: {",
+            "   ref: \"$1\"",
+            "   mode: \"${2|append,override|}\"",
+            "   allowChildren: ${3:false}",
             "}"
         ]
     }
