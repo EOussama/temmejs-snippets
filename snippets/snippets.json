@@ -7,8 +7,8 @@
             "{",
             "   ref: \"$1\",",
             "   from: {",
-            "       ref: \"$2\"",
-            "       mode: \"${3|append,override|}\"",
+            "       ref: \"$2\",",
+            "       mode: \"${3|append,override|}\",",
             "       allowChildren: ${4:false}",
             "   },",
             "   name: \"${5:div}\",",
@@ -28,8 +28,8 @@
         "description": "Generates a referencing object.",
         "body": [
             "from: {",
-            "   ref: \"$1\"",
-            "   mode: \"${2|append,override|}\"",
+            "   ref: \"$1\",",
+            "   mode: \"${2|append,override|}\",",
             "   allowChildren: ${3:false}",
             "}"
         ]
