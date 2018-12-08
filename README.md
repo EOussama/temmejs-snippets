@@ -1,5 +1,5 @@
 <p align="center">
-    <img alt="TemmeJS logo." src="https://github.com/EOussama/temmejs-snippets/blob/master/assets/img/logo.png" width="150" />
+    <img alt="TemmeJS logo." src="https://raw.githubusercontent.com/EOussama/temmejs-snippets/master/assets/img/logo.png" width="150" />
     <h1 align="center">TemmeJS snippets</h1>
 </p>
 
