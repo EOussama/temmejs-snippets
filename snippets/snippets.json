@@ -1,1 +1,11 @@
-{}
+{
+    "Basic Hierarchy" : {
+        "prefix": "temme",
+        "scope": "javascript,typescript,html",
+        "description": "Generates a basic temme object.",
+        "body": [
+            "{",
+            "}"
+        ]
+    }
+}
