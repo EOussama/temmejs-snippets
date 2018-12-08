@@ -3,7 +3,7 @@
     "displayName": "TemmeJS snippets",
     "description": "Code snippets for the TemmeJS library.",
     "version": "0.0.1",
-    "icon": "assets/img/logo.png",
+    "icon": "https://github.com/EOussama/temmejs-snippets/blob/master/assets/img/logo.png",
     "publisher": "Eoussama",
     "author": {
         "name": "Eoussama"
