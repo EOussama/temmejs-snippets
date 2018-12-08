@@ -3,6 +3,16 @@
     "displayName": "TemmeJS snippets",
     "description": "Code snippets for the TemmeJS library.",
     "version": "0.0.1",
+    "icon": "assets/img/logo.png",
+    "publisher": "Eoussama",
+    "author": {
+        "name": "Eoussama"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/EOussama/temmejs-snippets"
+    },
+    "homepage": "https://github.com/EOussama/temmejs-snippets/README.md",
     "engines": {
         "vscode": "^1.29.0"
     },
