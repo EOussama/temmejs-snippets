@@ -9,15 +9,18 @@
             "   from: {",
             "       ref: \"$2\",",
             "       mode: \"${3|append,override|}\",",
-            "       allowChildren: ${4:false}",
+            "       children: {",
+            "           allow: ${4:true},",
+            "           placement: \"${5|after,before|}\"",
+            "       }",
             "   },",
-            "   name: \"${5:div}\",",
-            "   id: \"$6\",",
-            "   ${7|text,html|}: \"$8\",",
-            "   classes: ['$9'],",
-            "   attributes: {$10},",
-            "   dataset: {$11},",
-            "   children: [$12]",
+            "   name: \"${7:div}\",",
+            "   id: \"$8\",",
+            "   ${9|text,html|}: \"$10\",",
+            "   classes: ['$11'],",
+            "   attributes: {$12},",
+            "   dataset: {$13},",
+            "   children: [$14]",
             "}"
         ]
     },
@@ -29,7 +32,10 @@
             "from: {",
             "   ref: \"$1\",",
             "   mode: \"${2|append,override|}\",",
-            "   allowChildren: ${3:false}",
+            "   children: {",
+            "       allow: ${3:true},",
+            "       placement: \"${4|after,before|}\"",
+            "   }",
             "}"
         ]
     }
