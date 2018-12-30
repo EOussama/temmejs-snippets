@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "temmejs-snippets" extension will be documented in this file.
 
+## 1.0.1
+Added few missing commas.
+
 ## 1.0.0
 Added support for Temme JS 1.0.0.
 
