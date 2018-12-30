@@ -1,5 +1,5 @@
 {
-    "Basic hierarchy" : {
+    "Basic hierarchy": {
         "prefix": "temme",
         "scope": "javascript,typescript,html",
         "description": "Generates a basic temme object.",
@@ -9,18 +9,24 @@
             "   from: {",
             "       ref: \"$2\",",
             "       mode: \"${3|append,override|}\",",
+            "       ${4|include,exclude|}: ['$5']",
+            "       ${6|exclude,include|}: ['$7']",
             "       children: {",
-            "           allow: ${4:true},",
-            "           placement: \"${5|after,before|}\"",
+            "           allow: ${8:true},",
+            "           placement: \"${9|after,before|}\"",
             "       }",
             "   },",
-            "   name: \"${7:div}\",",
-            "   id: \"$8\",",
-            "   ${9|text,html|}: \"$10\",",
-            "   classes: ['$11'],",
-            "   attributes: {$12},",
-            "   dataset: {$13},",
-            "   children: [$14]",
+            "   name: \"${10:div}\",",
+            "   id: \"$11\",",
+            "   content: {",
+            "       type: \"${12|text,html|}\",",
+            "       value: \"$13\",",
+            "},",
+            "   classes: ['$14'],",
+            "   attributes: {$15},",
+            "   dataset: {$16},",
+            "   childNodes: [$17]",
+            "   templates: [$18]",
             "}"
         ]
     },
@@ -32,11 +38,13 @@
             "from: {",
             "   ref: \"$1\",",
             "   mode: \"${2|append,override|}\",",
+            "   ${3|include,exclude|}: ['$4']",
+            "   ${5|exclude,include|}: ['$6']",
             "   children: {",
-            "       allow: ${3:true},",
-            "       placement: \"${4|after,before|}\"",
+            "       allow: ${7:true},",
+            "       placement: \"${8|after,before|}\"",
             "   }",
-            "}"
+            "},"
         ]
     }
 }

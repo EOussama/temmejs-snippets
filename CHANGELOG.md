@@ -1,6 +1,9 @@
 # Change Log
 All notable changes to the "temmejs-snippets" extension will be documented in this file.
 
+## 1.0.0
+Added support for Temme JS 1.0.0.
+
 ## 0.0.4
 Added support for Temme JS release (v0.4.1) and its new syntax for children inheritance.
 
